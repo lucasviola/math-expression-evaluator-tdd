@@ -2,21 +2,21 @@ import java.util.ArrayList;
 
 public class Stack {
 
-    ArrayList<Integer> members;
+    ArrayList<Object> members;
 
     public Stack() {
-        this.members = new ArrayList<Integer>();
+        this.members = new ArrayList<Object>();
     }
 
-    public void push(int i) {
-        members.add(i);
+    public void push(Object value) {
+        members.add(value);
     }
 
     public void pop() {
         members.remove(members.size() - 1);
     }
 
-    public int read() {
+    public Object read() {
         return members.get(members.size() - 1);
     }
 

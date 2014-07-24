@@ -1,3 +1,4 @@
+import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,9 +13,9 @@ public class StackTest {
 
         stack.push(2);
 
-        int result = stack.members.get(stack.members.size() - 1);
+        Object result = stack.members.get(stack.members.size() - 1);
 
-        assertThat(result, is(2));
+        assertThat(result, CoreMatchers.<Object>is(2));
     }
 
     @Test
@@ -23,9 +24,9 @@ public class StackTest {
         stack.push(2);
         stack.push(5);
 
-        int result = stack.members.get(stack.members.size() - 1);
+        Object result = stack.members.get(stack.members.size() - 1);
 
-        assertThat(result, is(5));
+        assertThat(result, CoreMatchers.<Object>is(5));
     }
 
     @Test
@@ -43,8 +44,8 @@ public class StackTest {
         Stack stack = new Stack();
 
         stack.push(2);
-        int result = stack.read();
+        Object result = stack.read();
 
-        assertThat(result, is(2));
+        assertThat(result, CoreMatchers.<Object>is(2));
     }
 }
