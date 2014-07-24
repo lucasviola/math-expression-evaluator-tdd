@@ -20,5 +20,5 @@ public class Stack {
         return members.get(members.size() - 1);
     }
 
-    
+
 }

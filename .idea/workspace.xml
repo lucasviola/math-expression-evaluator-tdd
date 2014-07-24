@@ -67,7 +67,7 @@
       <file leaf-file-name="StackTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/StackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="54" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1008">
+            <state line="9" column="54" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1008">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,11 +75,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Stack.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="380" selection-end="380" vertical-scroll-proportion="0.77799606" vertical-offset="0" max-vertical-offset="540">
+            <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvaluatorTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/EvaluatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="19" selection-start="324" selection-end="324" vertical-scroll-proportion="0.4243615" vertical-offset="0" max-vertical-offset="509">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +107,7 @@
       <list>
         <option value="$PROJECT_DIR$/test/StackTest.java" />
         <option value="$PROJECT_DIR$/src/Stack.java" />
+        <option value="$PROJECT_DIR$/test/EvaluatorTest.java" />
       </list>
     </option>
   </component>
@@ -431,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1008">
+        <state line="9" column="54" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1008">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -440,8 +452,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="380" selection-end="380" vertical-scroll-proportion="0.77799606" vertical-offset="0" max-vertical-offset="540">
+        <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/EvaluatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="324" selection-end="324" vertical-scroll-proportion="0.4243615" vertical-offset="0" max-vertical-offset="509">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
