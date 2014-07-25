@@ -12,9 +12,13 @@ public class Stack {
         members.add(value);
     }
 
-    public void pop() {
+    public Object pop() {
+        Object poppedNumber = members.get(members.size() - 1);
         members.remove(members.size() - 1);
+
+        return poppedNumber;
     }
+
 
     public Object read() {
         return members.get(members.size() - 1);

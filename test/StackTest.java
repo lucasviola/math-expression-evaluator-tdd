@@ -30,13 +30,23 @@ public class StackTest {
     }
 
     @Test
-    public void shouldPopLastNumber() throws Exception {
+    public void whenSingletonPoppedShouldReturnEmptyStack() throws Exception {
         Stack stack = new Stack();
 
         stack.push(2);
         stack.pop();
 
         assertTrue(stack.members.isEmpty());
+    }
+
+    @Test
+    public void shouldReturnPoppedNumber() throws Exception {
+        Stack stack = new Stack();
+
+        stack.push(2);
+        Object result = stack.pop();
+
+        assertEquals(2, result);
     }
 
     @Test
