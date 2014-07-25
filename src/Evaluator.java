@@ -4,6 +4,6 @@ public class Evaluator {
 
             if(stack.members.contains("+"))
                 stack.push("+");
-
     }
+
 }

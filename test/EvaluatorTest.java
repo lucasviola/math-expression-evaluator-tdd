@@ -7,7 +7,7 @@ import static org.hamcrest.CoreMatchers.*;
 public class EvaluatorTest {
 
     @Test
-    public void givenTwoNumbersAndOneOperatorConvertToPostfix() throws Exception {
+    public void givenTwoNumbersAndOneOperatorPushTheOperatorToTheTopOfTheStack() throws Exception {
        Stack stack = new Stack();
        Evaluator evaluator = new Evaluator();
        stack.push(2);
@@ -19,4 +19,5 @@ public class EvaluatorTest {
 
         assertEquals("+", result);
     }
+
 }

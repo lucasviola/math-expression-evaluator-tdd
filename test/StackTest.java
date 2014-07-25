@@ -15,7 +15,7 @@ public class StackTest {
 
         Object result = stack.members.get(stack.members.size() - 1);
 
-        assertThat(result, CoreMatchers.<Object>is(2));
+        assertEquals(result, 2);
     }
 
     @Test
@@ -26,7 +26,7 @@ public class StackTest {
 
         Object result = stack.members.get(stack.members.size() - 1);
 
-        assertThat(result, CoreMatchers.<Object>is(5));
+        assertEquals(result, 5);
     }
 
     @Test
@@ -46,6 +46,6 @@ public class StackTest {
         stack.push(2);
         Object result = stack.read();
 
-        assertThat(result, CoreMatchers.<Object>is(2));
+        assertEquals(result, 2);
     }
 }
