@@ -11,6 +11,18 @@ public class Evaluator {
                 stack.members.remove(i);
                 stack.push("-");
             }
+
+            if(stack.members.get(i).equals("*")){
+                stack.members.remove(i);
+                stack.push("*");
+            }
+
+            if(stack.members.get(i).equals("/")){
+                stack.members.remove(i);
+                stack.push("/");
+            }
+
+
         }
     }
 }
