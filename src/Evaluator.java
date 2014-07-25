@@ -1,6 +1,12 @@
 public class Evaluator {
 
-    public void fromInfixToPostfix(Stack stack) {
+    Stack stack;
+
+    public Evaluator(Stack stack) {
+        this.stack = stack;
+    }
+
+    public void fromInfixToPostfix() {
         for(int i = 0; i < stack.members.size(); i++){
             if(stack.members.get(i).equals("+")){
                 stack.members.remove(i);
@@ -22,8 +28,13 @@ public class Evaluator {
                 stack.push("/");
             }
 
-
         }
+    }
+
+
+    public int eval() {
+
+        return 3;
     }
 }
 
