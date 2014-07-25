@@ -1,9 +1,11 @@
 public class Evaluator {
 
     public void fromInfixToPostfix(Stack stack) {
-
-            if(stack.members.contains("+"))
+        for(int i = 0; i < stack.members.size(); i++){
+            if(stack.members.get(i).equals("+"))
+                stack.members.remove(i);
                 stack.push("+");
+        }
     }
-
 }
+
