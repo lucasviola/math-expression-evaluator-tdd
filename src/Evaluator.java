@@ -32,9 +32,10 @@ public class Evaluator {
     }
 
 
-    public int eval() {
+    public Object eval() {
 
-        return 3;
+
+        return 0;
     }
 }
 
